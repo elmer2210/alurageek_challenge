@@ -8,7 +8,6 @@ Reto del curso alura, en la preparaci√≥n como desarrollador front end, se crear√
 
 ## Captura del resultado final
 
-![Portafolio Elmer Rivadeneira](https://user-images.githubusercontent.com/51166398/225138945-993db203-e823-4d2d-a592-4d585975a961.png)
 
 ## Descripcion
 
