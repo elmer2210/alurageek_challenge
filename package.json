@@ -1,0 +1,20 @@
+{
+  "name": "alurageek_elmer",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">  <img src=\"https://img.shields.io/badge/STATUS-EN DESARROLLO-green\">  <img src=\"https://img.shields.io/badge/LICENCE-GNU-important\"> </p> Reto del curso alura, en la preparación como desarrollador front end, se creará una página web e-comerce, en la cual se debe demostrar el uso de html, css y javascript; la página debe mostrar productos, loguear usuarios y crear nuevos productos, todo hecho con las tecnologías y lenguajes mencionadas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmer2210/alurageek_challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmer2210/alurageek_challenge/issues"
+  },
+  "homepage": "https://github.com/elmer2210/alurageek_challenge#readme"
+}
