@@ -1,0 +1,117 @@
+.dashboard{
+    width: auto;
+    padding: 3rem 8rem;
+    margin-top: 5.5rem;
+ }
+ 
+ .dashboard__header{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .dashboard__header .dashboard__nombre{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 2rem;
+     color: var(--color-text-secondary);
+     font-style: normal;
+ }
+ 
+ .dashboard__header .dashboard__link{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 1rem;
+     color: var(--color-text-primary);
+     background-color: var(--butom-primary);
+     transition:.3s;
+     padding: 1rem;
+     margin-bottom: 1rem;
+ }
+ 
+ .dashboard__header .dashboard__link:hover{
+    background-color: var(--butom-secondary);
+ }
+ .dashboard__lista{
+     display: flex;
+     width: auto;
+ }
+ 
+ .dashboard__lista .dashboard__lista-card{
+     width: calc(16.67% - 1rem);
+     margin: .5rem;
+ }
+ 
+ .dashboard__lista-card .dashboard__lista-card-img{
+     width: 100%;
+     height: 8rem;
+ }
+ 
+ .dashboard__lista-card .dashboard__lista-card-descripcion{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 500;
+     font-size: .875rem;
+     color: var(--color-text-secondary);
+     margin: .5rem 0;
+ }
+ 
+ .dashboard__lista-card .dashboard__lista-card-precio{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 1rem;
+     color: var(--color-text-secondary);
+     margin-bottom: .5rem;
+ }
+ 
+ .dashboard__lista-card .dashboard__lista-card-link{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 1rem;
+     color: var(--color-text-three);
+ }
+ 
+ .dashboard__lista-card .dashboard__lista-card-link:hover{
+     text-decoration: underline;
+ }
+
+ .dashboard__lista-acciones{
+    position: absolute;
+    z-index: 100;
+    margin-top: -8rem;
+ }
+
+ .dashboard__lista-acciones a i{
+    font-size: 1.2rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-right: 2rem;
+    color: var(--color-text-four);
+ }
+
+ .dashboard__lista-acciones a:hover i{
+    color: var(--color-text-secondary);
+ }
+ 
+ @media screen and (max-width:1080px) {
+     .dashboard{
+         padding: 2rem;
+     }
+ 
+     .dashboard__lista{
+        flex-wrap: wrap;
+     }
+ 
+     .dashboard__lista .dashboard__lista-card{
+        width: calc(25% - 1rem);
+     }
+ }
+ 
+ @media screen and (max-width:767px) {
+ 
+     .dashboard__lista{
+         flex-wrap: wrap;
+     }
+ 
+     .dashboard__lista .dashboard__lista-card{
+         width: calc(50% - 1rem);
+     }
+ }

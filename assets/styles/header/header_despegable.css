@@ -1,26 +1,29 @@
 @media screen and (max-width:768px) {
+    .header{
+        padding: 1rem 2rem;
+    }
     .header__busquedadespegable{
         display: flex;
         flex-direction: row-reverse;
+        margin-bottom: 2rem;
     }
     
     .header__busquedadespegable .header__busquedadespegable-form{
         display: flex;
         align-items: center;
-        position: fixed;
     }
     
     .header__busquedadespegable-boton{
         border: none;
         background-color: var(--background-boton-secondary);
-        width: 3.5rem;
+        min-width: 3.5rem;
         height: 3.5rem;
         border-radius: 50%;
-        margin-left: -4rem;
+        margin-left: -2rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 1000;
+        z-index: 10;
     }
     
     .header__busquedadespegable-boton i{
@@ -50,10 +53,21 @@
     }
     
     .header__busquedadespegable-input:focus{
-        width: 24rem;
+        width: 20rem;
     }
     
     .header__busquedadespegable-buscar-boton{
       margin-left: -5rem;   
     }   
+
+    .header__logo h1{
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .header__logo i{
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
 }

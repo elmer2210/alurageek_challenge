@@ -2,18 +2,27 @@
     /*Fondos de páginas*/
     --background-color-body: #F5F5F5;
     --background-color-header:  #ffffff;
-    --background-color-shearch:#F5F5F5;
+    --background-color-shearch:#e7e3e3;
     --background-boton-secondary:#2A7AE4;
+    --background-color-footer: #EAF2FD;
 
     /*Color de bordes*/
     --color-border-boton-header:#2A7AE4;
 
 
     /*colores de textos*/
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #464646;
+    --color-text-three: #2A7AE4;
+    --color-text-four: #A2A2A2;
     --color-text-logo-header:#2A7AE4;
     --color-text-icon-search-hover:#2A7AE4;
     --color-text-icon-search: #ffffff;
     --color-text-barra-shearch: #A2A2A2;
     --color-text-login-header:#2A7AE4;
     --color-text-login-header-hover:#ffffff;
+
+    /*Botones*/
+    --butom-primary:#2A7AE4;
+    --butom-secondary:#1767cf;
 }

@@ -1,0 +1,68 @@
+.banner{
+    width: auto;
+    height: 22rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../images/banner.jpg) ;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 3rem 8rem;
+}
+
+.banner__titulo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: var(--color-text-primary);
+    margin-bottom: .5rem;
+}
+
+.banner__parrafo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.375rem;
+    color: var(--color-text-primary);
+    margin-bottom: .5rem;
+}
+
+.banner__link{
+    width: 8.0625rem;
+    background-color: var(--butom-primary);
+    text-align: center;
+    padding: 1.096rem 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--color-text-primary);
+}
+
+/*Tablets*/
+@media screen and (max-width:1082px) {
+    .banner{
+        padding: 2rem;
+    }
+}
+
+/*Telefonos*/
+
+@media screen and (max-width:768px){
+    .banner{
+        width: auto;
+        background-repeat: no-repeat;
+        height: 12rem;
+        padding: 1rem;
+    }
+
+    .banner__titulo{
+        font-size: 1.375rem;
+    }
+
+    .banner__parrafo{
+        font-size: 0.875rem;
+    }
+
+
+}
+

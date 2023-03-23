@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="assets/styles/variables.css">
     <link rel="stylesheet" href="assets/styles/header/header.css">
     <link rel="stylesheet" href="assets/styles/header/header_despegable.css">
+    <link rel="stylesheet" href="assets/styles/banner.css">
+    <link rel="stylesheet" href="assets/styles/catalogo.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
@@ -29,21 +32,108 @@
                 </form>
             </div>
         </div>
-        <a class="header__boton" href="">Login</a>
-        <div class="header__busquedadespegable">
-            <div class="header__busquedadespegable-boton">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <form action="" class="header__busquedadespegable-form">
-                <input class="header__busquedadespegable-input" type="search" name="" id="" placeholder="¿Qué deseas buscar?">
-            </form>
-        </div>
+        <a class="header__boton" href="screen/login.html">Login</a>
     </header>
     <main>
-
+        <section class="banner">
+            <h1 class="banner__titulo">marzo de promociones</h1>
+            <p class="banner__parrafo">Productos seleccionados con el <span>42%</span> de descuento!!</p>
+            <a href="" class="banner__link">Ver ofertas</a>
+        </section>
+        <section class="catalogo">
+            <div class="header__busquedadespegable">
+                <div class="header__busquedadespegable-boton">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <form action="" class="header__busquedadespegable-form">
+                    <input class="header__busquedadespegable-input" type="search" name="" id="" placeholder="¿Qué deseas buscar?">
+                </form>
+            </div>
+            <div>
+                <div class="catalogo__header">
+                    <h2 class="catalogo__nombre">coleccionables</h2>
+                    <a href="" class="catalogo__link">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="catalogo__lista">
+                    <div class="catalogo__lista-card">
+                        <img src="" alt="" class="catalogo__lista-card-img">
+                        <p class="catalogo__lista-card-descripcion">Producto 1</p>
+                        <p class="catalogo__lista-card-precio">$ 00.00</p>
+                        <a href="" class="catalogo__lista-card-link">Ver producto</a>
+                    </div>
+                    <div class="catalogo__lista-card">
+                        <img src="" alt="" class="catalogo__lista-card-img">
+                        <p class="catalogo__lista-card-descripcion">Producto 2</p>
+                        <p class="catalogo__lista-card-precio">$ 00.00</p>
+                        <a href="" class="catalogo__lista-card-link">Ver producto</a>
+                    </div>
+                    <div class="catalogo__lista-card">
+                        <img src="" alt="" class="catalogo__lista-card-img">
+                        <p class="catalogo__lista-card-descripcion">Producto 3</p>
+                        <p class="catalogo__lista-card-precio">$ 00.00</p>
+                        <a href="" class="catalogo__lista-card-link">Ver producto</a>
+                    </div>
+                    <div class="catalogo__lista-card">
+                        <img src="" alt="" class="catalogo__lista-card-img">
+                        <p class="catalogo__lista-card-descripcion">Producto 4</p>
+                        <p class="catalogo__lista-card-precio">$ 00.00</p>
+                        <a href="" class="catalogo__lista-card-link">Ver producto</a>
+                    </div>
+                    
+                    <div class="catalogo__lista-card">
+                        <img src="" alt="" class="catalogo__lista-card-img">
+                        <p class="catalogo__lista-card-descripcion">Producto 5</p>
+                        <p class="catalogo__lista-card-precio">$ 00.00</p>
+                        <a href="" class="catalogo__lista-card-link">Ver producto</a>
+                    </div>
+                    <div class="catalogo__lista-card">
+                        <img src="" alt="" class="catalogo__lista-card-img">
+                        <p class="catalogo__lista-card-descripcion">Producto 6</p>
+                        <p class="catalogo__lista-card-precio">$ 00.00</p>
+                        <a href="" class="catalogo__lista-card-link">Ver producto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h1><span>Pixal</span> Geek</h1>
+                </div>
+                <div class="footer__links">
+                    <ul>
+                        <li><a href="#">Quienes somos</a></li>
+                        <li><a href="#">Politica de privacidad</a></li>
+                        <li><a href="#">Programa de fidelidad</a></li>
+                        <li><a href="#">Nuestras tiendas</a></li>
+                        <li><a href="#">Quiero ser franquiciado</a></li>
+                        <li><a href="#">Anuncie aquí</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__contactanos">
+                <p>Hable con nosotros</p>
+                <form action="">
+                    <fieldset>
+                        <div class="footer__contactanos-inputs">
+                            <input type="text" name="" id="" class="footer__contacto-nombre" placeholder="Nombre">
+                            <label class="footer__contacto-label" for="">Nombre</label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="footer__contactanos-inputs">
+                            <textarea name="" id="" cols="30" rows="10" class="footer__contacto-text" placeholder="Escribe tu mensaje"></textarea>
+                            <label class="footer__contacto-label" for="">Escribe tu mensaje</label>
+                            <span class="input-message-error"></span>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="footer__contacto-boton">Enviar Mensaje</button></form>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="rodapie">
+        <p class="rodapie__nombres">Desarrollado Por Elmer Rivadeneira</p>
+        <p class="rodapie__anio">&copy; copyright 2023, todos los derechos reservados</p>
     </footer>
     <script src="assets/js/main.js"></script>
 </body>

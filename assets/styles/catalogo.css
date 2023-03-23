@@ -1,0 +1,96 @@
+.catalogo{
+   width: auto;
+   padding: 3rem 8rem;
+}
+
+.catalogo__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalogo__header .catalogo__nombre{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--color-text-secondary);
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.catalogo__header .catalogo__link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-text-three);
+    transition: all 3s;
+}
+
+.catalogo__header .catalogo__link:hover{
+    text-decoration: underline;
+}
+.catalogo__lista{
+    display: flex;
+    width: auto;
+}
+
+.catalogo__lista .catalogo__lista-card{
+    width: calc(16.67% - 1rem);
+    margin: .5rem;
+}
+
+.catalogo__lista-card .catalogo__lista-card-img{
+    width: 100%;
+    height: 8rem;
+}
+
+.catalogo__lista-card .catalogo__lista-card-descripcion{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    color: var(--color-text-secondary);
+    margin: .5rem 0;
+}
+
+.catalogo__lista-card .catalogo__lista-card-precio{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: .5rem;
+}
+
+.catalogo__lista-card .catalogo__lista-card-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-text-three);
+}
+
+.catalogo__lista-card .catalogo__lista-card-link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1080px) {
+    .catalogo{
+        padding: 2rem;
+    }
+
+    .catalogo__lista{
+        overflow-x: scroll;
+    }
+
+    .catalogo__lista .catalogo__lista-card{
+        min-width: calc(25% - 1rem);
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .catalogo__lista{
+        flex-wrap: wrap;
+    }
+
+    .catalogo__lista .catalogo__lista-card{
+        width: calc(50% - 1rem);
+    }
+}

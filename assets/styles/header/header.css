@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     background-color: var(--background-color-header);
-    padding: 1rem;
+    padding: 1rem 8rem;
     justify-content: space-between;
     position:fixed;
     top:0px;
@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     overflow: hidden;
-    padding: 0 2rem;
+    margin-right: 1rem;
 }
 
 .header__logo h1{
@@ -32,6 +32,7 @@
 .header__logo i{
     font-size: 2rem;
     margin-right: 1rem;
+    color: var(--color-text-logo-header);
 }
 
 .header__busqueda{
@@ -48,13 +49,14 @@
     height: 2.5rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .header__busqueda-input{
     background-color: transparent;
     border: none;
     height: calc(100% - .5rem);
-    width: 75%;
+    max-width: 75%;
     font-family: 'Raleway', sans-serif;
     font-size: 1.0625rem;
     font-weight: 400;
@@ -103,3 +105,6 @@
 .header__busquedadespegable{
     display: none;
 }
+
+
+

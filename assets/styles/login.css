@@ -1,0 +1,92 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 8rem;
+    margin-top: 5.5rem;
+}
+
+.login__titulo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.login .login__form{
+    display: flex;
+    flex-direction: column;
+    width: 26.5rem;
+}
+
+.login .login__form .login__form-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+.login .login__form 
+.login__form-inputs .login__form-input{
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 4rem;
+    width: 100%;
+}
+
+.login .login__form
+.login__form-inputs .login__form-input:focus{
+    outline: none;
+    border-bottom: 3px solid var(--color-text-four);
+}
+
+.login .login__form
+.login__form-inputs .login__form-input::placeholder{
+    visibility: hidden;
+}
+
+.login .login__form
+.login__form-inputs .login__form-label{
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 1.2rem;
+    transition: all 0.25s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+}
+
+.login .login__form
+.login__form-input:not(:placeholder-shown) + .login__form-label, 
+.login .login__form
+.login__form-input:focus + .login__form-label{
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+}
+
+.login .login__form
+.login__form-boton{
+    height: 4rem;
+    border: none;
+    background-color: var(--butom-primary);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--color-text-primary);
+    transition: all .5s;
+}
+
+.login .login__form
+.login__form-boton:hover{
+    cursor: pointer;
+    background-color: var(--butom-secondary);
+}
