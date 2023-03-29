@@ -114,4 +114,12 @@
      .dashboard__lista .dashboard__lista-card{
          width: calc(50% - 1rem);
      }
+     .dashboard__header{
+        flex-direction: column;
+     }
+
+     .dashboard__header a{
+        margin-top: 1rem;
+        width: 10rem;
+     }
  }

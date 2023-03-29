@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/reset.css">
+    <link rel="stylesheet" href="../assets/styles/base.css">
+    <link rel="stylesheet" href="../assets/styles/variables.css">
+    <link rel="stylesheet" href="../assets/styles/header/header.css">
+    <link rel="stylesheet" href="../assets/styles/header/header_despegable.css">
+    <link rel="stylesheet" href="../assets/styles/footer.css">  
+    <link rel="stylesheet" href="../assets/styles/crear_producto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"  crossorigin="anonymous">
+    <title>E-Comerce productonuevo</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="../index.html"><i class="fa-solid fa-gamepad"></i></a>
+            <h1><span>Pixal</span> Geek</h1>
+            <div class="header__busqueda">
+                <form action="">
+                    <input class="header__busqueda-input" type="text" name="" id="" placeholder="¿Qué deseas buscar?">
+                    <button class="header__busqueda-boton">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <a class="header__boton" href="dashboard.html">Dashboard</a>
+    </header>
+    <main>
+        <section class="productonuevo">
+            <h2 class="productonuevo__titulo">Agregar Nuevo productos</h2>
+            <form action="" class="productonuevo__form">
+                <fieldset>
+                    <div class="productonuevo__form-inputs-file">
+                        <input type="file" name="input-file" id="input-file" class="productonuevo__form-input-file inputfile" placeholder="Seleccione archivo" data-imagen>
+                        <label for="input-file" class="productonuevo__form-label">
+                            <span class="iborrainputfile">Subir archivo</span>
+                            <strong>
+                                Seleccionar archivo
+                                <i class="fa-solid fa-file-arrow-up"></i>
+                            </strong>
+                            </label>
+                        <span class="productonuevo__form-input-error"></span>
+                    </div>
+                    <div class="productonuevo__form-inputs" placeholder="Categoría">
+                        <select class="productonuevo__form-input" data-categoria>
+                            <option value="">---Selecciones una opción----</option>
+                            <option value="example1">Categoria 1</option>
+                        </select>
+                        <label for="" class="productonuevo__form-label">Categoría</label>
+                        <span class="productonuevo__form-input-error"></span>
+                    </div>
+                    <div class="productonuevo__form-inputs">
+                        <input type="text" name="" id="" class="productonuevo__form-input" placeholder="Nombre del producto" data-imagen>
+                        <label for="" class="productonuevo__form-label">Nombre del producto</label>
+                        <span class="productonuevo__form-input-error"></span>
+                    </div>
+                    <div class="productonuevo__form-inputs">
+                        <input type="text" name="" id="" class="productonuevo__form-input" placeholder="Presio del producto" data-precio>
+                        <label for="" class="productonuevo__form-label">Presio del producto</label>
+                        <span class="productonuevo__form-input-error"></span>
+                    </div>
+                    <div class="productonuevo__form-inputs">
+                        <input type="text" name="" id="" class="productonuevo__form-input" placeholder="Descripción del producto" data-descripcion>
+                        <label for="" class="productonuevo__form-label">Descripción del producto</label>
+                        <span class="productonuevo__form-input-error"></span>
+                    </div>
+                </fieldset>
+                <button type="submit" class="productonuevo__form-boton">Agregar Producto</button>
+            </form>
+        </section>
+        <section class="footer">
+
+            <div class="container">
+                <div class="footer__logo">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h1><span>Pixal</span> Geek</h1>
+                </div>
+                <div class="footer__links">
+                    <ul>
+                        <li><a href="#">Quienes somos</a></li>
+                        <li><a href="#">Politica de privacidad</a></li>
+                        <li><a href="#">Programa de fidelidad</a></li>
+                        <li><a href="#">Nuestras tiendas</a></li>
+                        <li><a href="#">Quiero ser franquiciado</a></li>
+                        <li><a href="#">Anuncie aquí</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__contactanos">
+                <p>Hable con nosotros</p>
+                <form action="">
+                    <fieldset>
+                        <div class="footer__contactanos-inputs">
+                            <input type="text" name="" id="" class="footer__contacto-nombre" placeholder="Nombre">
+                            <label class="footer__contacto-label" for="">Nombre</label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="footer__contactanos-inputs">
+                            <textarea name="" id="" cols="30" rows="10" class="footer__contacto-text" placeholder="Escribe tu mensaje"></textarea>
+                            <label class="footer__contacto-label" for="">Escribe tu mensaje</label>
+                            <span class="input-message-error"></span>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="footer__contacto-boton">Enviar Mensaje</button></form>
+            </div>
+        </section>
+    </main>
+    <footer class="rodapie">
+        <p class="rodapie__nombres">Desarrollado Por Elmer Rivadeneira</p>
+        <p class="rodapie__anio">&copy; copyright 2023, todos los derechos reservados</p>
+    </footer>
+    <script src="../assets/js/inputfile.js"></script>
+</body>
+</html>

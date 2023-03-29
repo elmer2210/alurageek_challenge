@@ -1,0 +1,39 @@
+{
+    "products":[
+        {
+            "imagenURL": "/home/elmer-dev/Documentos/Alura Latan/alurageek_elmer/assets/images/banner.jpg",
+            "nombreProducto": "Producto de ejemplo",
+            "precio": 13.50,
+            "descripcion": "es un producto de ejemplo",
+            "categoriaId": 1,
+            "id": 1
+        }
+    ], 
+    "category":[
+        {
+            "nombreCategoria": "Videos Juegos",
+            "clave": "videoJuego",
+            "id": 1
+        },
+        {
+            "nombreCategoria": "Figuras de Acción",
+            "clave": "figuraAccion",
+            "id": 2
+        },
+        {
+            "nombreCategoria": "Comics",
+            "clave": "comic",
+            "id": 3
+        },
+        {
+            "nombreCategoria": "Tecnologías",
+            "clave": "tecnologia",
+            "id": 4
+        },
+        {
+            "nombreCategoria": "Diversos",
+            "clave": "diverso",
+            "id": 1
+        }
+    ]
+}
