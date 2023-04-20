@@ -90,3 +90,12 @@
     cursor: pointer;
     background-color: var(--butom-secondary);
 }
+
+@media screen and (max-width: 768px) {
+    .login{
+        padding: 3rem 0.25rem;
+    }
+    .login .login__form {
+        width: calc(100%);
+    }
+}

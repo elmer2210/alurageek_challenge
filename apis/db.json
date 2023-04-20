@@ -1,7 +1,7 @@
 {
     "products":[
         {
-            "imagenURL": "/home/elmer-dev/Documentos/Alura Latan/alurageek_elmer/assets/images/banner.jpg",
+            "imagenURL": "https://muchosnegociosrentables.com/wp-content/uploads/2018/05/Figuras-Pop-De-Funko-para-nerds-y-geeks.jpg",
             "nombreProducto": "Producto de ejemplo",
             "precio": 13.50,
             "descripcion": "es un producto de ejemplo",
